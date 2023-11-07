@@ -23,6 +23,7 @@ cd [repository name]
 
 ```bash
 bash setup.sh
+
 #check
 python3
 >>import jetcam
@@ -36,15 +37,17 @@ python3
 4. (additonal) Correct the camera's color tone.
 
 ```bash
+cd ..
 bash correct_color_tone.sh
 ```
 
 ## Usage
 
-1. Place the pre-trained VGG model weightsin an appropriate directory.
+1. Place the pre-trained VGG model weights in an appropriate directory.
 
 
 2. Set the model and model weights for demo.ipynb.
+
     
 3. Run demo.ipynb
 
