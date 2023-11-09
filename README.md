@@ -47,7 +47,16 @@ bash correct_color_tone.sh
 
 Jupyter notebook usage
 
+
 2. Set the model and model weights path for demo.ipynb.
+<img width="1544" alt="image" src="https://github.com/s-ito0621/VGG_Demo/assets/131466870/7d47e6c5-07af-4923-bf5c-ec96ba9cb3af">
+
+```bash
+# default : weight_path = "final_weight.pth",model_var = "VGG11"
+model_path = "[weight_path]"
+model_var = "[VGG_ver]"
+
+```
 
 3. Run demo.ipynb
 
@@ -60,5 +69,6 @@ Python usage
    ```bash
 python3 demo.py
 ```
+
 
 
