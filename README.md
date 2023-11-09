@@ -45,11 +45,20 @@ bash correct_color_tone.sh
 
 1. Place the pre-trained VGG model weights in an appropriate directory.
 
+Jupyter notebook usage
 
-2. Set the model and model weights for demo.ipynb.
+2. Set the model and model weights path for demo.ipynb.
 
-    
 3. Run demo.ipynb
 
+Python usage
+
+2.  Set the model and model weights path for demo.py.
+
+3.  Run demo.py
+
+   ```bash
+python3 demo.py
+```
 
 
