@@ -37,7 +37,7 @@ python3
 4. (additonal) Correct the camera's color tone.
 
 ```bash
-cd ..
+
 bash correct_color_tone.sh
 ```
 
