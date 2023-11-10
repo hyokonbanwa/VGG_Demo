@@ -17,13 +17,14 @@ from PIL import Image
 import gc
 
 model_path = "./final_weight.pth"
-model_ver = "VGG11"
-RPS_list = ["チョキ", "グー", "パー"]
+model_ver = "VGG16"
+RPS_list = {"cho":"チョキ", "gu":"グー", "pa":"パー"}
 
-camera = CSICamera(width=64, height=64, capture_device=0)  
+
 
 
 input("撮影します. Enterキーを押してください")
+camera = CSICamera(width=64, height=64, capture_device=0)  
 
 # gc.collect()
 image = camera.read()
@@ -33,7 +34,7 @@ cv2.imwrite(image_path, image)
 
 print("撮影が終わりました")
 
-image_size = 64
+image_size = 32
 # Set random seed for reproducibility
 random_seed = 9999
 random.seed(random_seed)
