@@ -25,7 +25,7 @@ cd [repository name]
 bash setup.sh
 
 #check
-python test_camera.py
+python test_camera.py #It takes about 10 minutes for the camera to start up.
 # genrerated 256x256 image as "./image.jpg"
 ```
 
