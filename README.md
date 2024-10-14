@@ -25,8 +25,8 @@ cd [repository name]
 bash setup.sh
 
 #check
-python3
->>import jetcam
+python test_camera.py
+# genrerated 256x256 image as "./image.jpg"
 ```
 
 3. (only VScode) Installing VScode's jupyter extension
